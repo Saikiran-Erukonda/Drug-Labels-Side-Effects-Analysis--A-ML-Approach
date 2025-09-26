@@ -1,4 +1,5 @@
 # **Realistic Drugs & Their Side Effects Analysis - A Machine Learning Approach**
+An end-to-end real-time project on pharmaceutical data, focused on exploring statistical modeling, hypothesis testing, machine learning, and business intelligence techniques.
 
 ## About Dataset
 
@@ -40,33 +41,68 @@ source : [Kaggle/datasets](https://www.kaggle.com/datasets/pratyushpuri/drug-lab
 |`dosage_mg`	|Float/String*	|10-990 mg|	499.7	|290.0|	Medication strength in milligrams|
 |`price_usd`|	Float/String*	|$2.32-$499.24|	$251.12|	$144.81|	Drug price in US dollars|
 
-**Key statistics : **
+**Key statistics :**
 - Manufacturer Distribution
   
-|Manufacturer	|Count|	Percentage|
-|--------------|----|--|
-|Pfizer Inc.|	170|	12.2%|
-|AstraZeneca|	~140|	~10.0%|
-|Merck & Co.|	~140	|~10.0%|
-|Johnson & Johnson	|~140	|~10.0%|
-|GlaxoSmithKline	|~140|	~10.0%|
-|Others|	~623	|~44.8%|
+   |Manufacturer	|Count|	Percentage|
+   |--------------|----|--|
+   |Pfizer Inc.|	170|	12.2%|
+   |AstraZeneca|	~140|	~10.0%|
+   |Merck & Co.|	~140	|~10.0%|
+   |Johnson & Johnson	|~140	|~10.0%|
+   |GlaxoSmithKline	|~140|	~10.0%|
+   |Others|	~623	|~44.8%|
 
 - Drug Class Distribution
   
-|Drug Class	|Count	|Most Common|
-|-------|--|--|
-|Anti-inflammatory	|154	|✓|
-|Antibiotic	|~140	||
-|Antidepressant|	~140	||
-|Antiviral|	~140	||
-|Vaccine|	~140	||
-|Others|	~679||	
+   |Drug Class	|Count	|Most Common|
+   |-------|--|--|
+   |Anti-inflammatory	|154	|✓|
+   |Antibiotic	|~140	||
+   |Antidepressant|	~140	||
+   |Antiviral|	~140	||
+   |Vaccine|	~140	||
+   |Others|	~679||	
 
 - Side Effect Severity
   
-|Severity|	Count|	Percentage|
-|----------|---|---|
-|Severe	|488	|35.0%|
-|Moderate	|~453|	~32.5%|
-|Mild|	~452	|~32.5%|
+   |Severity|	Count|	Percentage|
+   |----------|---|---|
+   |Severe	|488	|35.0%|
+   |Moderate	|~453|	~32.5%|
+   |Mild|	~452	|~32.5%|
+-------------------------------------------------------------
+### Potential Use Cases
+1. Machine Learning Applications
+   
+   - Drug Approval Prediction: Predict approval likelihood based on drug characteristics
+   - Price Prediction: Estimate drug pricing using features like class, manufacturer, dosage
+   - Side Effect Classification: Classify severity based on drug properties
+   - Market Success Analysis: Analyze factors contributing to drug market performance
+
+2. Data Engineering Projects
+   - ETL Pipeline Development: Practice data cleaning and transformation
+   - Data Quality Assessment: Implement data validation and quality checks
+   - Database Design: Create normalized pharmaceutical database schema
+   - Real-time Processing: Stream processing for drug monitoring systems
+
+3. Business Intelligence
+   - Pharmaceutical Market Analysis: Manufacturer market share and competitive analysis
+   - Drug Safety Analytics: Side effect patterns and safety profile analysis
+   - Regulatory Compliance: Approval trends and regulatory timeline analysis
+   - Pricing Strategy: Competitive pricing analysis across drug classes
+
+**Next Steps:**
+   1. **Data Cleaning Pipeline:** Implement comprehensive data preprocessing
+   2. **Feature Engineering:** Create derived features for enhanced analysis
+   3. **Statistical Analysis:** Perform correlation analysis and hypothesis testing
+   4. **Machine Learning Models:** Build predictive models for various use cases
+   5. **Visualization Dashboard:** Create interactive dashboards for insights
+   6. **Documentation:** Maintain detailed data lineage and methodology docs
+
+----------------------------------------------------------------------------------
+## **Author**
+### Erukonda Saikiran
+ | Aspiring Data scientist | Python, ML Algorithms, SQL, PostgreSQL, Power BI |   [My LinkedIn](https://www.linkedin.com/in/saikiran-erukonda-4379911a3/) 
+ 
+ "Learn and Apply to create something New!" is my motto
